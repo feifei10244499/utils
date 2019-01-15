@@ -15,9 +15,9 @@ public class AliSmsTest {
      * @param args
      */
     public static void main(String[] args) throws ClientException {
-        String phone = "15190411111";
+        String phone = "电话";
         //String phone = "15190411111,15190411112
-        String code = "654321";
+        String code = "值";
         //调用模板
         SmsData data = new SmsData(SmsTemplate.SellerAgressRefund);
         //放入数据

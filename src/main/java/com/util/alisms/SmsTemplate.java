@@ -8,11 +8,11 @@ public enum SmsTemplate {
     /**
      *注册
      */
-	RegisterAndFindPwd("SMS_86705123", "注册", false, new String[] {"code"}),
+	RegisterAndFindPwd("模块id", "模块名称", false, new String[] {"code"}),
     /**
      *商家同意退款
      */
-	SellerAgressRefund("SMS_86540106", "商家同意退款", false, new String[] {"goodsName", "orderId"});
+	SellerAgressRefund("模块id", "模块名称", false, new String[] {"goodsName", "orderId"});
 
 	/**
 	 * 模块名称
