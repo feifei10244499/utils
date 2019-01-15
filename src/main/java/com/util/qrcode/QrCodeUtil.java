@@ -1,4 +1,4 @@
-package com.util.QrCode;
+package com.util.qrcode;
 
 import com.google.zxing.*;
 import com.google.zxing.common.BitMatrix;
@@ -13,6 +13,9 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.Hashtable;
 
+/**
+ * @author feife
+ */
 public class QrCodeUtil {
 	
 	 

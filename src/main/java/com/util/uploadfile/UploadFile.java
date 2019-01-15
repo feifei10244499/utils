@@ -1,4 +1,4 @@
-package com.util.QrCode;
+package com.util.uploadfile;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
